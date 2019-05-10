@@ -14,7 +14,7 @@ header {
 }
 h1 { 
     line-height: 300%; 
-    background-image: url(images/logo.svg_150x78.png);
+    background-image: url(Images/logo.svg_150x78.png);
     background-position: right;
     background-repeat: no-repeat;
     padding-left: 20px; 
@@ -33,7 +33,7 @@ h1 {
     font-size: 1.2em; 
 }
 #statue {
-    background-image: url(images/wolf.jpg);
+    background-image: url(Images/wolf.jpg);
     background-repeat: no-repeat;
     height: 128px;
     width: 192px;
@@ -41,7 +41,7 @@ h1 {
     margin-left: 1em;
 }
 #actblizz { 
-    background-image: url(images/actblizz.svg.png) ;
+    background-image: url(Images/actblizz.svg.png) ;
     background-position: bottom right;
     background-repeat: no-repeat;
     height: 78px;
@@ -51,7 +51,7 @@ h1 {
     margin-top: 1em; 
 }
 #warcraft {
-    background-image: url(images/warcraft_25.jpg);
+    background-image: url(Images/warcraft_25.jpg);
     background-repeat: no-repeat;
     height: 127px;
     width: 89px;
@@ -59,7 +59,7 @@ h1 {
     margin-right: 1em;
 }
 #hearthstone {
-    background-image: url(images/hearthstone.jpg);
+    background-image: url(Images/hearthstone.jpg);
     background-repeat: no-repeat;
     height: 127px;
     width: 89px;
@@ -68,7 +68,7 @@ h1 {
     margin-bottom: 1em;
 }
 #wow {
-    background-image: url(images/wow.jpg);
+    background-image: url(Images/wow.jpg);
     background-repeat: no-repeat;
     height: 127px;
     width: 89px;
@@ -77,7 +77,7 @@ h1 {
     margin-bottom: 2em;
 }
 #overwatch {
-    background-image: url(images/overwatch.jpg);
+    background-image: url(Images/overwatch.jpg);
     background-repeat: no-repeat;
     height: 127px;
     width: 89px;
@@ -86,7 +86,7 @@ h1 {
     margin-bottom: 1em;
 }
 #OWleague {
-    background-image: url(images/leaguelogo.png);
+    background-image: url(Images/leaguelogo.png);
     background-repeat: no-repeat;
     height: 126px;
     width: 150px;
@@ -95,7 +95,7 @@ h1 {
     margin-bottom: 1em;
 }
 #starcraft {
-    background-image: url(images/starcraft.jpg);
+    background-image: url(Images/starcraft.jpg);
     background-repeat: no-repeat;
     height: 127px;
     width: 89px;
@@ -104,7 +104,7 @@ h1 {
     margin-bottom: 1em;
 }
 #diablo {
-    background-image: url(images/diablo.png);
+    background-image: url(Images/diablo.png);
     background-repeat: no-repeat;
     height: 127px;
     width: 89px;
