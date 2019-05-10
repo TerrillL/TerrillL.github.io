@@ -1,0 +1,322 @@
+* { box-sizing: border-box; }
+body { 
+    background-color:#225FA3;
+    background-image: linear-gradient(to bottom, #d6e9ff, #225FA3);
+    background-repeat: no-repeat;
+    color: #666666;
+    font-family: Verdana, Arial, sans-serif; 
+}
+header { 
+    background-color:#383d44;
+    background-image: linear-gradient(to right, #383D44, #78808C);
+    color: #FFFFFF;
+    font-family: Georgia, serif; 
+}
+h1 { 
+    line-height: 300%; 
+    background-image: url(images/logo.svg_150x78.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-left: 20px; 
+    height: 92px; 
+    margin-bottom: 0; 
+}
+#blizzimage { 
+    background-image: url(images/BlizzconEntrance.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    height: 300px;
+    margin-left: 170px;
+}
+.blizzard {
+    color: #236ce0;
+    font-size: 1.2em; 
+}
+#statue {
+    background-image: url(images/wolf.jpg);
+    background-repeat: no-repeat;
+    height: 128px;
+    width: 192px;
+    float: right; 
+    margin-left: 1em;
+}
+#actblizz { 
+    background-image: url(images/actblizz.svg.png) ;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    height: 78px;
+    width: 112px;
+    float: right;
+    margin-left: 1em;
+    margin-top: 1em; 
+}
+#warcraft {
+    background-image: url(images/warcraft_25.jpg);
+    background-repeat: no-repeat;
+    height: 127px;
+    width: 89px;
+    float: left;
+    margin-right: 1em;
+}
+#hearthstone {
+    background-image: url(images/hearthstone.jpg);
+    background-repeat: no-repeat;
+    height: 127px;
+    width: 89px;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+#wow {
+    background-image: url(images/wow.jpg);
+    background-repeat: no-repeat;
+    height: 127px;
+    width: 89px;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 2em;
+}
+#overwatch {
+    background-image: url(images/overwatch.jpg);
+    background-repeat: no-repeat;
+    height: 127px;
+    width: 89px;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+#OWleague {
+    background-image: url(images/leaguelogo.png);
+    background-repeat: no-repeat;
+    height: 126px;
+    width: 150px;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+#starcraft {
+    background-image: url(images/starcraft.jpg);
+    background-repeat: no-repeat;
+    height: 127px;
+    width: 89px;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+#diablo {
+    background-image: url(images/diablo.png);
+    background-repeat: no-repeat;
+    height: 127px;
+    width: 89px;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+.games {
+    list-style: none;
+    font-weight: bold;
+}
+nav { 
+    float: left;
+    width: 160px;
+    font-weight: bold; 
+    padding: 20px 5px 0px 20px;
+    position: relative; 
+}
+nav ul ul {
+    position: absolute;
+    background-color: #98bff0;
+    padding: 0;
+    text-align: left;
+    display: none;
+}
+nav ul ul li {
+    border: 1px solid #FFFFFF;
+    display: block;
+    width: 8em;
+    padding-left: 0.5em;
+    margin-left: 0px;
+}
+h2 { 
+    color: #3399CC;
+    font-family: Georgia, serif; 
+}
+dt {
+    color: #000033;
+    font-weight: bold; 
+}
+footer { 
+    color: #FFFFFF;
+    font-size: .70em;
+    font-style: italic;
+    text-align: center; 
+    padding: 10px; 
+    background-color: #78808c; 
+    margin-left: 170px;
+}
+#wrapper { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #7bb2f6; 
+    min-width: 700px;
+    max-width: 1024px; 
+}
+h3 { 
+    color: #000033; 
+}
+main { 
+    background-color: #f0f4f9;
+    display: block;
+    margin-left: 170px;
+    padding: 1px 20px; 
+}
+nav a {
+    text-decoration: none; 
+}
+nav a:link {
+    color: #000033; 
+}
+nav a:visited {
+    color: #344873; }
+nav a:hover {
+    color: #FFFFFF; 
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+nav li:hover ul {
+    display: block;
+}
+tr a:hover { 
+    color: #000033;
+}
+tr a {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+canvas {
+      display: block;
+      margin: 0 auto;
+    }
+header, nav, main, footer {
+    display: block; 
+}
+#mobile {
+    display: none;
+}
+#desktop {
+    display: inline;
+}
+table { 
+    width: 90%;
+    border: 1px solid #3399cc; 
+    margin: auto; 
+    border-collapse: collapse; 
+}
+td, th {
+    padding: 5px;
+    border: 1px solid #3399cc; 
+}
+td {
+    text-align: center;
+}
+label {
+    float:left;
+    display: block;
+    width: 15em; 
+    padding-right: 1em; 
+}
+input, textarea {
+    margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        margin: 0px;
+        padding: 0;
+        background-color: #7bb2f6; 
+    }
+    #wrapper {
+        width: auto;
+        min-width: 0;
+        margin: 0;
+        box-shadow: none; 
+    }
+    h1 {
+        margin: 0; 
+    }
+    nav { 
+        float: none;
+        width: auto;
+        padding: .5em; 
+    }
+    nav li {
+        display: inline-block;
+        padding-left: 1em; 
+    }
+    main { 
+        padding: 1em;
+        margin-left: 0;
+        font-size: 90%;
+    }
+    footer {
+        margin: 0; 
+    }
+    #blizzimage {
+        margin-left: 0px;
+    }
+    #actblizz {
+        display: none; 
+    }
+}
+@media only screen and (max-width: 768px) {
+    h1 { 
+        height: 100%;
+        font-size: 1.8em;
+        padding-left: .3em;
+        background-image:none;
+        text-align: center;
+        }
+    nav {
+        padding: 0;
+        text-align: center;
+    }
+    nav a { 
+        display: block;
+        padding: .2em; 
+        font-size: 1.3em;
+        border-bottom: 1px solid #330000; 
+    }
+    nav ul {
+        margin: 0;
+        padding: 0; 
+    }
+    nav li { 
+        display: block;
+        margin: 0;
+        padding: 0; 
+    }
+    main {
+        padding: .1em .6em .1em .4em; 
+    }
+    footer { 
+        padding: 0;
+    }
+    #actblizz { 
+        display: none;
+    }
+    nav ul ul li {
+        display: none; 
+    }
+    #mobile {
+        display: inline; 
+    }
+    #desktop {
+        display: none; 
+    }
+}
